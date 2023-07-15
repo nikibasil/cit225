@@ -1,0 +1,149 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Style the body */
+  body {
+    font-family: Arial;
+    margin: 0;
+  }
+  
+  /* Header/logo Title */
+  .header {
+    padding: 60px;
+    text-align: center;
+    /* background: #1abc9c;
+    color: white; */
+    color: #fff!important;
+      background-color: #f44336!important;
+  }
+  
+  /* Style the top navigation bar */
+  .navbar {
+    display: flex;
+    background-color: #333;
+  }
+  
+  /* Style the navigation bar links */
+  .navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+  /* Change color on hover */
+  .navbar a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  /* Column container */
+  .row {  
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Create two unequal columns that sits next to each other */
+  /* Sidebar/left column */
+  .side {
+    flex: 25%;
+    background-color: #f1f1f1;
+    padding: 20px;
+  }
+  
+  /* Main column */
+  main {
+    flex: 35%;
+    background-color: white;
+    padding: 20px;
+  }
+  
+  /* Fake image, just for this example */
+  .fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
+
+  pre {
+    color: #2d3b45;
+    display: block;
+    padding: 9px;
+    margin: 0 0 6px;
+    line-height: 1.2;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+  }
+  code, pre {
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    font-size: .75rem;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    border: 1px solid #c7cdd1;
+  }
+
+  .erd img{
+    max-width:95%;
+}
+.erd {
+    padding: 0 15px;
+}
+.portal {
+    padding: 0 15px; 
+    margin-left: 10px
+}
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: grey;
+  }
+
+/* Responsive Google Slides, YouTube & Vimeo */
+iframe[src*="docs.google.com"],
+iframe[src*="youtube.com"],
+iframe[src*="player.vimeo.com"]{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+  /* .iframe-slideshare-4x3 {
+    padding-bottom: calc(75% + 51px);
+}
+
+.iframe-slideshare-16x9 {
+    padding-bottom: calc(56.25% + 51px);
+}
+
+.iframe-slideshare-16x9,
+.iframe-slideshare-4x3{
+    position: relative;
+    width: 100%;
+    height: 0;
+}
+
+.iframe-slideshare-16x9 iframe,
+.iframe-slideshare-4x3 iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border:1px solid #CCC; 
+} */
+  
+  /* Footer */
+  .footer {
+    padding: 20px;
+    text-align: center;
+    background: #ddd;
+  }
+  
+  /* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 400px) {
+    .row, .navbar {   
+      flex-direction: column;
+    }
+  }

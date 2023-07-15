@@ -1,0 +1,179 @@
+body {
+    display: block;
+    background-color: white;
+    font-family: "MontserratBold",Helvetica,Arial,sans-serif;
+    margin: 10px auto;
+    width: 400px; 
+  }
+  h1 {
+    padding: 10px;
+    font-size: 1.0rem;
+  }
+  h2 {
+    display: block;
+    font-size: 1.1em;
+    font-weight: bold;
+  }
+  
+  header {
+    display: flex;
+  }
+  footer {
+  display: block;
+  justify-content: center;
+  text-align: center; 
+  }
+  .shadowbox {
+    color: white;
+    background-color: rgb(0, 76, 118);
+    padding: 15px;
+    border-radius: 5px;
+    margin: auto;
+    align-items: center;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 15px 0 rgba(0, 0, 0, 0.19);  
+  }
+  
+  button {
+    border: 2px solid red;
+    cursor: pointer;
+    position: absolute;
+    background-color: yellow;
+    font-weight: bolder;
+    box-shadow: 0 8px 6px 0 rgba(0, 0, 0, 0.2), 0 12px 5px 0 rgba(0, 0, 0, 0.19);
+    z-index: 1;
+  }
+  
+  img {
+    padding: 0px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 15px 0 rgba(0, 0, 0, 0.19);
+    position: relative;
+    cursor: zoom-in;
+  }
+  
+  #lastupdated {
+    color: rgb(238, 234, 16);
+    font-size: 0.9em;
+  }
+  
+  pre {
+    color: #2d3b45;
+    display: block;
+    padding: 9px;
+    margin: 0 0 6px;
+    line-height: 1.2;
+    word-break: break-all;
+    word-wrap: break-word;
+    white-space: pre;
+    white-space: pre-wrap;
+  }
+  code, pre {
+    font-family: Monaco,Menlo,Consolas,"Courier New",monospace;
+    font-size: .75rem;
+    border-radius: 6px;
+    background-color: #f5f5f5;
+    border: 1px solid #c7cdd1;
+  }
+  
+  em {
+    font-size: 0.8em;
+  }
+  
+  
+  pre .erd {
+    align-items: center;
+    text-align: center;
+  }
+  
+  .creation {
+    height: 400px;
+    overflow: auto;
+  }
+  
+  .fixCrud {
+   background-color: white;
+   position: fixed;
+   width: 778px;
+   padding: 10px;
+   bottom: 0;
+   margin: 0px;
+   border: 1px solid #6b6d6e;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 15px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  h5 {
+    margin: 4px;
+  }
+  
+  .bodyContainer {
+    width: 1100px;
+  }
+  .headerContainer, .mainContainer {
+    margin: 0 auto;
+  }
+  
+  .crudContainer {
+    width: 1000px;
+    overflow: auto;
+  }
+  
+  /* ---- Main Join page ---- */
+   .joinContainer {
+      display: flex;
+      background-color: #fff;
+      padding-top: 5px;
+      padding-bottom: 5px;
+      margin-left: 4px;
+      margin-right: 4px;
+      border: 1px solid #858585;
+      flex-direction: column;
+  }
+  
+  .joinContainer div{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+  }
+  
+  .CreaContract{
+  margin: 3px;
+  padding: 2px;
+  }
+  
+  .membership {
+      border: 1px solid #858585;
+      background-color: rgb(21, 70, 21, 0.3);
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+  }
+  
+  .membership {
+      margin-left: 10px;
+      margin-right: 10px;
+      margin-bottom: 20px;
+  }
+  .membership h2 {
+      text-align: center;
+  }
+  
+  
+  #joinForm {
+      align-self: center;
+      background-color: rgb(21, 70, 21, 0.3);
+      border: 1px solid #858585;
+      padding: 0.5em;
+      margin-bottom: 20px;
+  }
+  
+  input, select, textArea {
+      background-color: #fff;
+      border-radius: 6px;
+      border-color: forestgreen;
+      box-sizing: border-box;
+      color:forestgreen;
+      font-size: 18px;
+      padding: 10px 20px;
+      width: 100%;
+  }
